@@ -18,4 +18,4 @@ class Game(Base):
     def __repr__(self):
         return f'Game(id={self.id}, ' + \
             f'title="{self.title}", ' + \
-            f'platform="{self.platform})"'
+            f'platform="{self.platform}")'
